@@ -1,0 +1,68 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto ;
+    gap: 10px;
+    padding: 10px;
+  
+   
+
+  }
+
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid gray;
+    border-radius: 5px;
+    
+  }
+
+  .blackshadow:hover{
+     background-color: rgba(0, 0, 0, 0.8);
+     
+  }
+
+ 
+  
+  .deletebtn{
+
+    color: red;
+    cursor: pointer;
+
+  }
+
+  
+  .deletebtn{
+
+    border: 1px solid rgb(255, 255, 255);
+  
+  
+   }
+  
+  .deletebtn:hover{
+
+   border-bottom: 1px solid red;
+ 
+ 
+  }
+  
+  .image:hover {
+    opacity: .3;
+  }
+
+
+  .addimg{
+
+padding-top: 40%;
+cursor: pointer;
+  }
+
+
+  .col-md-6{
+    width: 50% !important;
+  }
+
+
+  
